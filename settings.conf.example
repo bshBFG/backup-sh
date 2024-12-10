@@ -1,0 +1,13 @@
+PROJECT_NAME="project_name"
+PROJECT_DIR="/path/to/project"
+TEMP_BACKUP="$PROJECT_DIR/temp-backup"
+TEMP_RESTORE="$PROJECT_DIR/temp-restore"
+TEMP_DEPLOY="$PROJECT_DIR/temp-deploy"
+BACKUPS="$PROJECT_DIR/backups"
+DOCKER_COMPOSE_FILE="$PROJECT_DIR/docker-compose.yml"
+BACKUP_DIRS=("uploads")
+DB_CONTAINER="database_container_name"
+DB_NAME="database_name"
+DB_USER="databse_user_name"
+
+# KEEP_LAST_N_BACKUPS=5
